@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node emitter.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon emitter",
-    "dev1": "nodemon listener"
+    "dev": "nodemon emitter"
+    
   },
   "author": "",
   "license": "ISC",
