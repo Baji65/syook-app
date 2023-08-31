@@ -6,6 +6,7 @@ const timeSeriesSchema = new mongoose.Schema({
    data: {
       name: String,
       origin: String,
+      
       destination: String
    
   }
