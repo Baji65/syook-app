@@ -73,7 +73,7 @@ io1.on('connection', (socket) => {
     const numMessages = Math.floor(Math.random() * (499 - 49 + 1)) + 49;
 
     
-    for (let i = 0; i < 30; i++) {
+    for (let i = 0; i < numMessages; i++) {
    const message = generateRandomMessage();
    socket.emit('messageStream', message);
    }
