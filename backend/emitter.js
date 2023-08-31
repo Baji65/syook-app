@@ -125,7 +125,7 @@ const calculatesecretKey = crypto.createHash('sha256').update(JSON.stringify(ori
 model.create(datadecrypt)
 
 .then(savedData => {
-  console.log('Data saved:',savedData);
+  console.log('Data saved:');
   
   io1.emit('decryptedDataToFrontend', savedData.data);
 })
